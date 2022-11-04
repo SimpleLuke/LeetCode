@@ -5,4 +5,4 @@
 | #   | Title | Solution | Difficulty |
 | --- | ----- | -------- | ---------- |
 
-|1|[Two Sum]()| [JavaScript](), |Easy|
+|1|[Two Sum]()| [JavaScript](./algorithms/JavaScript/Two-Sum/two-sum.js), |Easy|
