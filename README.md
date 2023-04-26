@@ -6,3 +6,4 @@
 | --- | ----- | -------- | ---------- |
 
 |1|[Two Sum]()| [JavaScript](./algorithms/JavaScript/Two-Sum/two-sum.js), |Easy|
+|2|[Valid Parentheses]()| [JavaScript](./String/20-Valid-Parentheses/JavaScript) |Easy|
