@@ -1,16 +1,20 @@
 const isValid = function (s) {
   const validBrackets = ["()", "[]", "{}"];
-  let pair = "";
+  let stack = [];
   for (let index = 0; index < s.length; index++) {
-    pair += s[index];
-    if (index % 2 !== 0) {
-      if (!validBrackets.includes(pair)) {
-        return false;
+    stack.push(s[index]);
+    if (index > 0 && stack.length > 1) {
+      let checkBrackets = stack[stack.length - 2] + stack[stack.length - 1];
+      if (validBrackets.includes(checkBrackets)) {
+        stack.pop();
+        stack.pop();
       }
-      pair = "";
     }
   }
-  return true;
+  if (stack.length === 0) {
+    return true;
+  }
+  return false;
 };
 
 module.exports = isValid;
