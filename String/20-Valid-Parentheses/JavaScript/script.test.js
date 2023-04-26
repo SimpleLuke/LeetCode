@@ -11,4 +11,9 @@ describe("isValid", () => {
     expect(isValid("(}")).toEqual(false);
     expect(isValid("[}")).toEqual(false);
   });
+
+  it("returns true given correct closing type and more than one pair of brackets ", () => {
+    expect(isValid("()[]")).toEqual(true);
+    expect(isValid("[]{}()")).toEqual(true);
+  });
 });

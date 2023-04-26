@@ -1,8 +1,16 @@
 const isValid = function (s) {
-  if (s === "()" || s === "[]" || s === "{}") {
-    return true;
+  const validBrackets = ["()", "[]", "{}"];
+  let pair = "";
+  for (let index = 0; index < s.length; index++) {
+    pair += s[index];
+    if (index % 2 !== 0) {
+      if (!validBrackets.includes(pair)) {
+        return false;
+      }
+      pair = "";
+    }
   }
-  return false;
+  return true;
 };
 
 module.exports = isValid;
