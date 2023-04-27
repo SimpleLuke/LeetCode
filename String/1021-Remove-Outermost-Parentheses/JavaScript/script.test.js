@@ -9,4 +9,10 @@ describe("removeOuterParetheses", () => {
     expect(removeOuterParentheses("(())")).toEqual("()");
     expect(removeOuterParentheses("((()))")).toEqual("(())");
   });
+  it("removes the respective outer parentheses when given wrapping parentheses with multiple primitive decompositions", () => {
+    expect(removeOuterParentheses("(()())(())(()(()))")).toEqual(
+      "()()()()(())"
+    );
+    expect(removeOuterParentheses("(()())(())")).toEqual("()()()");
+  });
 });

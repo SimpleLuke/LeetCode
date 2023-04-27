@@ -1,6 +1,7 @@
 var removeOuterParentheses = function (s) {
   let left = "";
   let right = "";
+  let temp = "";
   let result = "";
   for (let index = 0; index < s.length; index++) {
     if (s[index] === "(") {
@@ -9,12 +10,13 @@ var removeOuterParentheses = function (s) {
       right += ")";
     }
 
+    temp += s[index];
+
     if (left.length === right.length) {
-      result +=
-        left.substring(0, left.length - 1) +
-        right.substring(0, right.length - 1);
+      result += temp.substring(1, temp.length - 1);
       left = "";
       right = "";
+      temp = "";
     }
   }
   return result;
