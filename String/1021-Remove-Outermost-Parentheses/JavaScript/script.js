@@ -1,3 +1,5 @@
-var removeOuterParentheses = function(s) {
-    
+var removeOuterParentheses = function (s) {
+  return "";
 };
+
+module.exports = removeOuterParentheses;
