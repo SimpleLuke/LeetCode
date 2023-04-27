@@ -1,0 +1,15 @@
+{
+  "name": "1021-remove-outermost-parentheses",
+  "version": "1.0.0",
+  "description": "A valid parentheses string is either empty \"\", \"(\" + A + \")\", or A + B, where A and B are valid parentheses strings, and + represents string concatenation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
