@@ -1,21 +1,18 @@
 var maxDepth = function (s) {
-  let left = 0;
-  let right = 0;
   let count = 0;
+  let maxCount = 0;
   for (let index = 0; index < s.length; index++) {
     if (s[index] === "(") {
-      left++;
+      count++;
     } else if (s[index] === ")") {
-      right++;
+      count--;
     }
 
-    if (left === right) {
-      count = left;
-      left = 0;
-      right = 0;
+    if (count > maxCount) {
+      maxCount = count;
     }
   }
-  return count;
+  return maxCount;
 };
 
 module.exports = maxDepth;
