@@ -1,7 +1,7 @@
 const isIsomorphic = require("./script");
 
 describe("isIsomorphic", () => {
-  it("return true", () => {
-    expect(isIsomorphic()).toEqual(true);
+  it("returns true when given the characters of first word can be replaced to get second word", () => {
+    expect(isIsomorphic("egg", "add")).toEqual(true);
   });
 });
