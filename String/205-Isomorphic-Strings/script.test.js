@@ -8,4 +8,7 @@ describe("isIsomorphic", () => {
   it("returns false when given the characters of first word cannot be replaced to get second word", () => {
     expect(isIsomorphic("foo", "bar")).toEqual(false);
   });
+  it("returns false when more than one character map to the same character", () => {
+    expect(isIsomorphic("badc", "baba")).toEqual(false);
+  });
 });

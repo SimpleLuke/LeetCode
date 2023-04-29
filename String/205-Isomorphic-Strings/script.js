@@ -1,8 +1,11 @@
 var isIsomorphic = function (s, t) {
+  const sArr = Array.from(new Set(s.split("")));
+  const tArr = Array.from(new Set(t.split("")));
+  if (sArr.length !== tArr.length) {
+    return false;
+  }
   const map = {};
   for (let index = 0; index < s.length; index++) {
-    console.log(map, s[index]);
-    console.log("check", s[index] in map, map[s[index]], t[index]);
     if (s[index] in map === false) {
       map[s[index]] = t[index];
     } else {
