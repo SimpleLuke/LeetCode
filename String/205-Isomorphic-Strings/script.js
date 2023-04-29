@@ -17,4 +17,18 @@ var isIsomorphic = function (s, t) {
   return true;
 };
 
+// Alternative way using JavaScript indexOf method to search and compare next character map.
+// This approach minimises space complexity by not using data structures
+// var isIsomorphic = function(s, t) {
+
+//     for (let i = 0; i < s.length; i++) {
+
+//         if (s.indexOf(s[i], i + 1) !== t.indexOf(t[i], i + 1)) {
+
+//             return false;
+//         }
+//     }
+//     return true;
+// };
+
 module.exports = isIsomorphic;
