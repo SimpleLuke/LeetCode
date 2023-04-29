@@ -19,6 +19,11 @@ Example 3:
 Input: s = "paper", t = "title"
 Output: true
 
+Example 4:
+
+Input: s = "badc", t = "baba"
+Output: false
+
 Constraints:
 
 1 <= s.length <= 5 \* 104
