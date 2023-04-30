@@ -9,3 +9,4 @@
 | 3   | Remove Outermost Parentheses             | [JavaScript](./String/1021-Remove-Outermost-Parentheses/JavaScript)             | Easy       |
 | 4   | Maximum Nesting Depth of the Parentheses | [JavaScript](./String/1614-Maximum-Nesting-Depth-of-the-Parentheses/JavaScript) | Easy       |
 | 5   | Isomorphic Strings                       | [JavaScript](./String/205-Isomorphic-String/JavaScript)                         | Easy       |
+| 6   | Valid-Anagram                            | [JavaScript](./String/242-Valid-Anagram/JavaScript)                             | Easy       |
