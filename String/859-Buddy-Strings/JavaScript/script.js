@@ -2,6 +2,9 @@ var buddyStrings = function (s, goal) {
   let array = s.split("");
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length; j++) {
+      if (i === j) {
+        continue;
+      }
       let temp = array[j];
       let tempArr = [...array];
       tempArr[j] = tempArr[i];
