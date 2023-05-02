@@ -1,5 +1,7 @@
 var sortString = function (s) {
-  return true;
+  const array = s.split("");
+
+  return array.sort((a, b) => (a > b ? 1 : -1)).join("");
 };
 
 module.exports = sortString;
