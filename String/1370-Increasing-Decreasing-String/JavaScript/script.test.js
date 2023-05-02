@@ -8,4 +8,8 @@ describe("sortString", () => {
     expect(sortString("rat")).toEqual("art");
     expect(sortString("ate")).toEqual("aet");
   });
+  it("returns the sorted string when given repeat characters", () => {
+    expect(sortString("aabb")).toEqual("abba");
+    expect(sortString("aaaabbbbcccc")).toEqual("abccbaabccba");
+  });
 });
