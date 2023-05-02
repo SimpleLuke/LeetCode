@@ -11,3 +11,4 @@
 | 5   | Isomorphic Strings                       | [JavaScript](./String/205-Isomorphic-String/JavaScript)                         | Easy       |
 | 6   | Valid-Anagram                            | [JavaScript](./String/242-Valid-Anagram/JavaScript)                             | Easy       |
 | 7   | Buddy Strings                            | [JavaScript](./String/850-Buddy-Strings/JavaScript)                             | Easy       |
+| 8   | Increasing Decreasing String             | [JavaScript](./String/1370-Increasing-Decreasing-String/JavaScript)             | Easy       |
