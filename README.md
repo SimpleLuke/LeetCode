@@ -12,3 +12,4 @@
 | 6   | Valid-Anagram                            | [JavaScript](./String/242-Valid-Anagram/JavaScript)                             | Easy       |
 | 7   | Buddy Strings                            | [JavaScript](./String/850-Buddy-Strings/JavaScript)                             | Easy       |
 | 8   | Increasing Decreasing String             | [JavaScript](./String/1370-Increasing-Decreasing-String/JavaScript)             | Easy       |
+| 9   | Remove Duplicates from Sorted Array             | [JavaScript](./Array/26.%20Remove%20Duplicates%20from%20Sorted%20Array)             | Easy       |
