@@ -1,4 +1,5 @@
-/**
+/*
+ * Time O(N) | Space O(1)
  * @param {number[]} nums
  * @param {number} val
  * @return {number}
