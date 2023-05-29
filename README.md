@@ -15,3 +15,4 @@
 | 9   | Remove Duplicates from Sorted Array      | [JavaScript](./Array/26.%20Remove%20Duplicates%20from%20Sorted%20Array)         | Easy       |
 | 10  | Remove Element                           | [JavaScript](./Array/27.%20Remove%20Element)                                    | Easy       |
 | 11  | Concatenation of Array                   | [JavaScript](./Array/1929.%20Concatenation%20of%20Array)                        | Easy       |
+| 12  | Baseball Game                            | [JavaScript](./Array/682.%20Baseball%20Game)                                    | Easy       |
