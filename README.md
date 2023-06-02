@@ -18,4 +18,5 @@
 | 12  | Baseball Game                            | [JavaScript](./Array/682.%20Baseball%20Game)                                    | Easy       |
 | 13  | Valid Parentheses                        | [JavaScript](./Array/20.%20Valid%20Parentheses)                                 | Easy       |
 | 14  | Min Stack                                | [JavaScript](./Array/155.%20Min%20Stack)                                        | Medium     |
-| 15  | Reverse Linked List                      | [JavaScript](./Linked List/206.%20Reverse%20Linked%20List)                      | Easy       |
+| 15  | Reverse Linked List                      | [JavaScript](./Linked%20List/206.%20Reverse%20Linked%20List)                    | Easy       |
+| 16  | Merge Two Sorted Lists                   | [JavaScript](./Linked%20List/21.%20Merge%20Two%20Sorted%20Lists)                | Easy       |
