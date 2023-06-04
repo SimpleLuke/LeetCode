@@ -21,3 +21,4 @@
 | 15  | Reverse Linked List                      | [JavaScript](./Linked%20List/206.%20Reverse%20Linked%20List)                    | Easy       |
 | 16  | Merge Two Sorted Lists                   | [JavaScript](./Linked%20List/21.%20Merge%20Two%20Sorted%20Lists)                | Easy       |
 | 17  | Design Linked List                       | [JavaScript](./Linked%20List/707.%20Design%20Linked%20Lists)                    | Medium     |
+| 17  | Design Browser History                   | [JavaScript](./Linked%20List/1472.%20Design%20Broswer%20History)                | Medium     |
