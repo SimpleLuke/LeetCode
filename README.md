@@ -25,3 +25,4 @@
 | 19  | Number of Students Unable to Eat Lunch   | [JavaScript](./Linked%20List/1700.%20Number%20of%20Students%20Unable%20to%20Eat%20Lunch) | Easy       |
 | 20  | Implement Stack using Queues             | [JavaScript](./Linked%20List/225.%20Implement%20Stack%20using%20Queues)                  | Easy       |
 | 21  | Fibonacci Number                         | [JavaScript](./Linked%20List/509.%20Fibonacci%20Number)                                  | Easy       |
+| 22  | Sort an Array                            | [JavaScript](./Sorting/912.%20Sort%20an%20Array)                                         | Medium     |
