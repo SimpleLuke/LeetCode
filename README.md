@@ -26,3 +26,4 @@
 | 20  | Implement Stack using Queues             | [JavaScript](./Linked%20List/225.%20Implement%20Stack%20using%20Queues)                  | Easy       |
 | 21  | Fibonacci Number                         | [JavaScript](./Linked%20List/509.%20Fibonacci%20Number)                                  | Easy       |
 | 22  | Sort an Array                            | [JavaScript](./Sorting/912.%20Sort%20an%20Array)                                         | Medium     |
+| 23  | Merge k Sorted Lists                     | [JavaScript](./Sorting/23.%20Merge%20k%20Sorted%20Lists)                                 | Hard       |
