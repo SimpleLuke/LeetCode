@@ -29,3 +29,4 @@
 | 23  | Merge k Sorted Lists                     | [JavaScript](./Sorting/23.%20Merge%20k%20Sorted%20Lists)                                 | Hard       |
 | 24  | Kth Largest Element in an Array          | [JavaScript](./Sorting/215.%20Kth%20Largest%20Element%20in%20an%20Array)                 | Medium     |
 | 25  | Sort Colors                              | [JavaScript](./Sorting/75.%20Sort%20Colors)                                              | Medium     |
+| 26  | Two Sum                                  | [JavaScript](./Hashing/1.%20Two%20Sum)                                                   | Easy       |
