@@ -1,37 +1,47 @@
 /**
- * Time O(N) | Space O(N)
- * @param {number[]} students
- * @param {number[]} sandwiches
- * @return {number}
+ * Time Complexity: O(N)
+ * Space Complexity: O(N)
+ * @param {number[]} students - Array representing the preferences of students (1s and 0s)
+ * @param {number[]} sandwiches - Array representing the available sandwiches (1s and 0s)
+ * @return {number} - The number of students who couldn't get their preferred sandwiches
  */
 var countStudents = function (students, sandwiches) {
-  let turnAround = 0;
+  let turnAround = 0; // Counter for the number of students who couldn't get their preferred sandwiches
 
   while (students.length > 0) {
     if (students[0] === sandwiches[0]) {
-      students = students.slice(1);
-      sandwiches = sandwiches.slice(1);
-      turnAround = 0;
+      // If the student's preference matches the available sandwich
+      students = students.slice(1); // Remove the student from the list
+      sandwiches = sandwiches.slice(1); // Remove the sandwich from the list
+      turnAround = 0; // Reset the turnAround counter
     } else {
-      students.push(students[0]);
-      students = students.slice(1);
-      turnAround++;
+      students.push(students[0]); // Move the student to the end of the list
+      students = students.slice(1); // Remove the student from the beginning of the list
+      turnAround++; // Increment the turnAround counter
     }
 
     if (turnAround === students.length) {
-      return turnAround;
+      // If all remaining students have already been moved to the end
+      return turnAround; // Return the number of students who couldn't get their preferred sandwiches
     }
   }
 
-  return 0;
+  return 0; // If all students got their preferred sandwiches, return 0
 };
 
-// This is a bit efficient. Time is O(max(m,n)) and Space is O(1).
-
+/**
+ * This alternative approach is a bit more efficient.
+ * Time Complexity: O(max(m, n))
+ * Space Complexity: O(1)
+ * @param {number[]} students - Array representing the preferences of students (1s and 0s)
+ * @param {number[]} sandwiches - Array representing the available sandwiches (1s and 0s)
+ * @return {number} - The number of students who couldn't get their preferred sandwiches
+ */
 var countStudents = function (students, sandwiches) {
-  let studentsOne = 0;
-  let studentsZero = 0;
+  let studentsOne = 0; // Counter for the number of students preferring sandwich type 1
+  let studentsZero = 0; // Counter for the number of students preferring sandwich type 0
 
+  // Count the number of students preferring each type of sandwich
   for (let i = 0; i < students.length; i++) {
     if (students[i] === 1) {
       studentsOne++;
@@ -40,19 +50,22 @@ var countStudents = function (students, sandwiches) {
     }
   }
 
+  // Iterate over the sandwiches and check if each student gets their preferred sandwich
   for (let i = 0; i < sandwiches.length; i++) {
     if (sandwiches[i] === 1) {
-      studentsOne--;
+      studentsOne--; // Decrease the count of students preferring sandwich type 1
       if (studentsOne < 0) {
-        return students.length - i;
+        // If there are no more students preferring sandwich type 1
+        return students.length - i; // Return the remaining number of students who couldn't get their preferred sandwiches
       }
     } else {
-      studentsZero--;
+      studentsZero--; // Decrease the count of students preferring sandwich type 0
       if (studentsZero < 0) {
-        return students.length - i;
+        // If there are no more students preferring sandwich type 0
+        return students.length - i; // Return the remaining number of students who couldn't get their preferred sandwiches
       }
     }
   }
 
-  return 0;
+  return 0; // If all students got their preferred sandwiches, return 0
 };
